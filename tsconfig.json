@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "esModuleInterop": true,
+        "lib": [
+            "ES2018",
+            "ES2021.String"
+        ],
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "ES2018",
+        "typeRoots": [
+            "./typechain",
+            "./node_modules/@types"
+        ],
+        "types": [
+            "@nomiclabs/hardhat-ethers",
+            "@nomiclabs/hardhat-waffle"
+        ]
+    },
+    "include": [
+        "./test"
+    ],
+    "files": [
+        "./hardhat.config.ts"
+    ]
+}
